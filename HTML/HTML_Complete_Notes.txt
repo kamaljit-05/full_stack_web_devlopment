@@ -1,0 +1,306 @@
+
+HTML COMPLETE NOTES (DETAILED)
+
+1. INTRODUCTION TO HTML
+Definition:
+HTML (HyperText Markup Language) is the standard markup language used to create and structure web pages. It tells the browser how content should be displayed.
+
+Features:
+- Easy to learn
+- Platform independent
+- Supports multimedia
+- Works with CSS and JavaScript
+- Foundation of web development
+
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+</body>
+</html>
+
+2. HTML DOCUMENT STRUCTURE
+
+<!DOCTYPE html>  -> Declares HTML5
+<html>           -> Root element
+<head>           -> Metadata section
+<title>          -> Browser tab title
+<body>           -> Visible webpage content
+
+3. HEADINGS
+HTML provides six heading levels.
+
+<h1>Main Heading</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+Uses:
+- Organize content
+- Improve readability
+- Help SEO
+
+4. PARAGRAPH TAG
+
+Definition:
+Used to write blocks of text.
+
+Example:
+<p>This is a paragraph.</p>
+
+5. LINE BREAK AND HORIZONTAL RULE
+
+Line Break:
+<br>
+
+Horizontal Line:
+<hr>
+
+6. TEXT FORMATTING TAGS
+
+<b>Bold</b>
+<strong>Important Text</strong>
+<i>Italic</i>
+<em>Emphasized</em>
+<u>Underline</u>
+<mark>Highlighted</mark>
+<small>Small Text</small>
+<del>Deleted Text</del>
+<sup>Superscript</sup>
+<sub>Subscript</sub>
+
+Examples:
+H<sub>2</sub>O
+x<sup>2</sup>
+
+7. LISTS
+
+A. Ordered List
+<ol>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ol>
+
+B. Unordered List
+<ul>
+<li>Apple</li>
+<li>Mango</li>
+<li>Orange</li>
+</ul>
+
+C. Description List
+<dl>
+<dt>HTML</dt>
+<dd>HyperText Markup Language</dd>
+</dl>
+
+8. LINKS
+
+<a href="https://example.com">Visit Site</a>
+
+Attributes:
+- href
+- target
+- title
+
+Open in new tab:
+<a href="https://example.com" target="_blank">Open</a>
+
+9. IMAGES
+
+<img src="image.jpg" alt="Image" width="300">
+
+Attributes:
+- src
+- alt
+- width
+- height
+
+10. TABLES
+
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Kamaljit</td>
+<td>95</td>
+</tr>
+</table>
+
+Table Tags:
+- table
+- tr
+- th
+- td
+- caption
+
+11. FORMS
+
+Forms collect user data.
+
+<form>
+Name:
+<input type="text"><br>
+Password:
+<input type="password"><br>
+<input type="submit">
+</form>
+
+12. INPUT TYPES
+
+text
+password
+email
+number
+date
+radio
+checkbox
+file
+color
+range
+submit
+reset
+
+13. BUTTONS
+
+<button>Click Me</button>
+
+14. AUDIO
+
+<audio controls>
+<source src="song.mp3">
+</audio>
+
+15. VIDEO
+
+<video controls width="400">
+<source src="video.mp4">
+</video>
+
+16. DIV TAG
+
+Used as a container.
+
+<div>
+<h2>About</h2>
+<p>Learning HTML</p>
+</div>
+
+17. SPAN TAG
+
+Used inside text.
+
+<p>My favorite color is <span>Red</span></p>
+
+18. SEMANTIC TAGS
+
+<header>
+<nav>
+<section>
+<article>
+<aside>
+<footer>
+
+Advantages:
+- Better readability
+- Better SEO
+- Easier maintenance
+
+19. COMMENTS
+
+<!-- This is a comment -->
+
+20. HTML ENTITIES
+
+&lt; = <
+&gt; = >
+&amp; = &
+&nbsp; = Space
+
+21. META TAGS
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+22. HTML5 FEATURES
+
+- Semantic Elements
+- Audio Support
+- Video Support
+- Canvas
+- SVG
+- Geolocation
+- Local Storage
+- Responsive Design
+
+23. CANVAS
+
+<canvas id="myCanvas"></canvas>
+
+Used for:
+- Drawing graphics
+- Games
+- Charts
+
+24. SVG
+
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40" />
+</svg>
+
+25. BEST PRACTICES
+
+- Use proper indentation
+- Use semantic tags
+- Add alt text to images
+- Keep code organized
+- Validate HTML
+
+26. MINI PROJECT
+
+Student Profile Page
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Profile</title>
+</head>
+<body>
+<h1>Kamaljit Tripathy</h1>
+<p>Foundation Level Student - IITM BS</p>
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Python</li>
+</ul>
+</body>
+</html>
+
+27. INTERVIEW QUESTIONS
+
+Q1. What is HTML?
+Ans. HyperText Markup Language used to create web pages.
+
+Q2. Difference between HTML and CSS?
+Ans. HTML structures content while CSS styles it.
+
+Q3. What is a semantic tag?
+Ans. A tag that describes the meaning of content.
+
+Q4. Difference between div and span?
+Ans. Div is block-level; span is inline.
+
+Q5. What is the purpose of the alt attribute?
+Ans. Provides alternative text for images.
+
+END OF NOTES
