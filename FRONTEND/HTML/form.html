@@ -8,19 +8,19 @@
 <body>
     <form >
 
-        <label for="email">Enter Email ID: </label>
-        <input type="text" id="email">
+        <label for="email" ">Enter Email ID: </label>
+        <input type="text" id="email" placeholder="enter your email">
     </br>
-        <label for="password">Enter Password: </label>
-        <input type="text" id="password">
+        <label for="password" >Enter Password: </label>
+        <input type="text" id="password" placeholder="enter your password">
     </br>
         <input type="submit" value="submit">
         <button type="reset">Reset</button>
     </br>
-        <label for="date picker">Select Date: </label>
+        <label for="date picker" placeholder="select a date">Select Date: </label>
         <input type="date" id="date picker">
     </br>
-        <label for="cars">Choose a car:</label>
+        <label for="cars" placeholder="choose a car">Choose a car:</label>
         <select name="cars" id="cars">
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
@@ -32,7 +32,6 @@
         <button>click this</button>
     <br>
         <textarea name="message" rows="10" cols="30" placeholder="Enter your message here..."></textarea>
-        </textarea>
     <br>
         <fieldset>
             <legend>Personal Information</legend>
@@ -45,7 +44,34 @@
             <label for="age">Age:</label>
             <input type="number" id="age" name="age">
         </fieldset>
+    </br>
+        <label for="radio1">Option 1</label>
+        <input type="radio" id="radio1">
+        <label for="radio2">option2</label>
+        <input type="radio" id="radio2">
+        <label for="radio3">Option 3</label>
+        <input type="radio" id="radio3">    
     <br>
+        <input type="radio" id="radio1" name="gender" value="male">
+        <label for="radio1">Male</label>
+        <input type="radio" id="radio2" name="gender" value="female">
+        <label for="radio2">Female</label>
+    <br>
+        <label for="checkbox1">english</label>
+        <input type="checkbox" id="checkbox1" name="language" value="english">
+        <label for="checkbox2">hindi</label>   
+        <input type="checkbox" id="checkbox2" name="language" value="hindi">
+
+
+    <br>
+        <label for="file1">chose file:</label>
+        <input type="file" name="file1" id="file">
+    <br>
+        <input type="image" src="download.png" alt="Submit" width="100" height="100">
+    <br>
+        <input type="password" name="password" placeholder="Enter your password">
+    <br>
+        <input type="date" name="date" placeholder="Select a date">
 
 
     </form>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example 5: More Input Types Showcase</title>
+</head>
+<body>
+
+<h1>Example 5: More Input Types Showcase</h1>
+<!-- Types used here: color, url, search, month, week, time, datetime-local, progress, meter, image, button -->
+<form action="#" method="post">
+
+  <!-- Color input opens the operating system's color picker -->
+  <label for="show-color">Pick a Color:</label><br>
+  <input type="color" id="show-color" name="favcolor" value="#ff0000"><br><br>
+
+  <!-- URL input checks that the text typed looks like a web address -->
+  <label for="show-url">Your Website:</label><br>
+  <input type="url" id="show-url" name="website" placeholder="https://example.com"><br><br>
+
+  <!-- Search input - browsers often add a small clear (x) button inside it -->
+  <label for="show-search">Search:</label><br>
+  <input type="search" id="show-search" name="query" placeholder="Search here"><br><br>
+
+  <!-- Month input picks a month and year -->
+  <label for="show-month">Graduation Month:</label><br>
+  <input type="month" id="show-month" name="gradmonth"><br><br>
+
+  <!-- Week input picks a week number and year -->
+  <label for="show-week">Preferred Week for Interview:</label><br>
+  <input type="week" id="show-week" name="prefweek"><br><br>
+
+  <!-- Time input picks hours and minutes -->
+  <label for="show-time">Preferred Time:</label><br>
+  <input type="time" id="show-time" name="preftime"><br><br>
+
+  <!-- Datetime-local combines a date and a time in a single picker -->
+  <label for="show-datetime">Event Date and Time:</label><br>
+  <input type="datetime-local" id="show-datetime" name="eventdatetime"><br><br>
+
+  <!-- Progress shows how much of a task is complete -->
+  <label for="show-progress">Profile Completion:</label><br>
+  <progress id="show-progress" value="70" max="100">70%</progress><br><br>
+
+  <!-- Meter shows a value within a known range, e.g. storage used -->
+  <label for="show-meter">Storage Used (out of 10 GB):</label><br>
+  <meter id="show-meter" value="6" min="0" max="10">6 out of 10</meter><br><br>
+
+  <!-- Image input acts like a submit button but uses an image instead of the default box.
+       The alt text still shows if the image file cannot be found. -->
+  <label>Submit using an image button:</label><br>
+  <input type="image" src="submit-icon.png" alt="Submit" width="80"><br><br>
+
+  <!-- Plain button - does nothing by itself without JavaScript -->
+  <button type="button">Click Me</button>
+
+</form>
+
+</body>
+</html>

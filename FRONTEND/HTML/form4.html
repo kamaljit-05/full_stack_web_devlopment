@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example 3: Feedback / Survey Form</title>
+</head>
+<body>
+
+<h1>Example 3: Feedback / Survey Form</h1>
+<!-- Types used here: textarea, radio, checkbox, range, output, select (multiple), datalist, submit -->
+<form action="#" method="post">
+
+  <!-- Textarea - a multi-line text box, size set with rows and cols -->
+  <label for="fb-comments">Your Comments:</label><br>
+  <textarea id="fb-comments" name="comments" rows="4" cols="30" placeholder="Write your feedback here"></textarea><br><br>
+
+  <fieldset>
+    <legend>How satisfied are you?</legend>
+    <input type="radio" id="sat-happy" name="satisfaction" value="happy">
+    <label for="sat-happy">Happy</label>
+    <input type="radio" id="sat-neutral" name="satisfaction" value="neutral">
+    <label for="sat-neutral">Neutral</label>
+    <input type="radio" id="sat-sad" name="satisfaction" value="sad">
+    <label for="sat-sad">Sad</label>
+  </fieldset><br>
+
+  <!-- Checkboxes sharing the same name - the user can pick more than one -->
+  <fieldset>
+    <legend>Which features did you use?</legend>
+    <input type="checkbox" id="feat-search" name="features" value="search">
+    <label for="feat-search">Search</label><br>
+    <input type="checkbox" id="feat-chat" name="features" value="chat">
+    <label for="feat-chat">Chat Support</label><br>
+    <input type="checkbox" id="feat-export" name="features" value="export">
+    <label for="feat-export">Export Data</label>
+  </fieldset><br>
+
+  <!-- Range - a slider between min and max. The output tag can display its value
+       (normally updated live with JavaScript; shown here as plain static HTML) -->
+  <label for="fb-rating">Rate us (1 to 10):</label><br>
+  <input type="range" id="fb-rating" name="rating" min="1" max="10" value="5">
+
+  <!-- Select with the "multiple" attribute lets more than one option be chosen -->
+  <label for="fb-topics">Topics you're interested in (hold Ctrl/Cmd to pick more than one):</label><br>
+  <select id="fb-topics" name="topics" multiple size="4">
+    <option value="tech">Technology</option>
+    <option value="health">Health</option>
+    <option value="sports">Sports</option>
+    <option value="music">Music</option>
+  </select><br><br>
+
+  <!-- Datalist gives suggestions while typing but still allows any free text answer -->
+  <label for="fb-browser">Which browser do you use?</label><br>
+  <input type="text" id="fb-browser" name="browser" list="browser-options">
+  <datalist id="browser-options">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Edge">
+    <option value="Safari">
+  </datalist><br><br>
+
+  <input type="submit" value="Submit Feedback">
+
+</form>
+
+</body>
+</html>
